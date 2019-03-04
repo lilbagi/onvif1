@@ -2,8 +2,8 @@ from onvif import ONVIFCamera
 import control
 from onvif import ONVIFService
 
-mycam = ONVIFCamera('192.168.15.42',80,'boshandi7','GtN0aXIBL9is','C:/Python27/wsdl/')
-#mycam = ONVIFCamera('192.168.15.42',80,'boshandi7','GtN0aXIBL9is','C:/Program Files (x86)/Python37-32/Lib/site-packages/wsdl/')
+mycam = ONVIFCamera('192.168.15.42',80,'boshandi7','***','C:/Python27/wsdl/')
+#mycam = ONVIFCamera('192.168.15.42',80,'boshandi7','***','C:/Program Files (x86)/Python37-32/Lib/site-packages/wsdl/')
 print (mycam.devicemgmt.GetDeviceInformation())
 
 
